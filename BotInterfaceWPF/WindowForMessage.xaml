@@ -1,0 +1,16 @@
+﻿<Window x:Class="BotInterfaceWPF.WindowForMessage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BotInterfaceWPF"
+        mc:Ignorable="d"
+        Title="Сообщение от пользователя" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Height="400" Width="600" Closing="Window_Closing">
+    <Grid>
+        <TextBox Name="ExtMessageBlock"
+                 TextWrapping="Wrap"
+                 Margin="20"
+                 Grid.Row="0"
+                 IsReadOnly="True"/>
+    </Grid>
+</Window>
